@@ -20,7 +20,7 @@ int main(void) {
 
 	mulNum = num1 * num2;
 
-	printf("The Summation is : %f", mulNum);
+	printf("The Multiblication is : %f", mulNum);
 	return EXIT_SUCCESS;
 }
 

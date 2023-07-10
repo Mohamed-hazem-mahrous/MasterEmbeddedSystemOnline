@@ -11,7 +11,7 @@
 #include <stdlib.h>
 
 int main(void) {
-	float a, b, temp;
+	float a, b;
 
 	printf("Enter Value of a: ");
 	fflush(stdout);

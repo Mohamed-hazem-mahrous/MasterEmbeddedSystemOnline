@@ -12,7 +12,7 @@
 int main(void) {
 	float num;
 
-	printf("Enter Three Numbers: ");
+	printf("Enter the Number: ");
 	fflush(stdout);
 	scanf("%f", &num);
 
