@@ -2,7 +2,7 @@
 
 ## Contents
 
-### First Term ![image](https://progress-bar.dev/24/?title=InProgress)
+### First Term ![image](https://progress-bar.dev/30/?title=InProgress)
 
 - [Unit 1: Diploma Prerequisites](https://github.com/Mohamed-hazem-mahrous/MasterEmbeddedSystemDiploma) ![image](https://progress-bar.dev/100/?title=No_Assignments&color=bababa)
 - [Unit 2: C Programming](Unit_2_C_Programming) ![image](https://progress-bar.dev/50/)
