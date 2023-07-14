@@ -3,46 +3,42 @@
  Author      : Mohamed Hazem
  Unit		 : 2 C Programming
  Lesson		 : 5 C Functions
- Name        : Example 4
- Description : Calculta Power of Number Using Recursion
+ Name        : Example 2
+ Description : Getting Factorial of a Number
  ======================================================================================================================
  */
 
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <math.h>
 
-int power_recursion(int po, int ba){
-	int res = ba;
 
-	while(po - 1){
-		res *= ba;
 
-		po--;
-		power_recursion(po, ba);
-	}
-	return res;
+int factorial(int num){
+    int fac = 1;
+
+    while(num){
+    	fac *= num;
+
+		num--;
+		factorial(num);
+    }
+    return fac;
 }
+
 
 int main()
 {
 
-    int base;
-    int power;
-    int result;
+	int num, fac;
 
-    printf("Enter a Base Number: ");
+    printf("Enter Positive Integer: ");
     fflush(stdout);
-    scanf("%d", &base);
+    scanf("%d", &num);
 
-    printf("Enter a Power Number(Positive Integer): ");
-	fflush(stdout);
-	scanf("%d", &power);
-
-	result = power_recursion(power, base);
-
-	printf("%d ^ %d = %d", base, power, result);
-
+    fac = factorial(num);
+    printf("Factorial of %d is: %d", num, fac);
 
 
 
