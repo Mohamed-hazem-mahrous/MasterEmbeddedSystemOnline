@@ -4,7 +4,7 @@
  Unit		 : 2 C Programming
  Lesson		 : 5 C Functions
  Name        : Example 4
- Description : Calculta Power of Number Using Recursion
+ Description : Calculate Power of Number Using Recursion
  ======================================================================================================================
  */
 
