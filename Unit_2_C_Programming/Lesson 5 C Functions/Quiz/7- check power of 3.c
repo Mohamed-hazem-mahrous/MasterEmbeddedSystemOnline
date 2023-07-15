@@ -33,7 +33,8 @@ int main() {
     scanf("%d", &num);
 
     i = power3(num);
-    printf("%d ==> %d", num, i);
+    printf("%d ==> %d\n", num, i);
+
 
 
     return 0;
