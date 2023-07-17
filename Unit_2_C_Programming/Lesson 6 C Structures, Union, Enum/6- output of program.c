@@ -3,8 +3,8 @@
  Author      : Mohamed Hazem
  Unit		 : 2 C Programming
  Lesson		 : Lesson 6
- Name        : Example 5
- Description : Find Area of Circle Using Macros
+ Name        : Example 6
+ Description : Find Size of Union and Struct
  ======================================================================================================================
  */
 
