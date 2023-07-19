@@ -4,7 +4,7 @@
  Unit		 : 2 C Programming
  Lesson		 : Lesson 8 : C Pointers
  Name        : Example 4
- Description : Print all alphabets using pointers
+ Description : Reverse Array using pointers
  ======================================================================================================================
  */
 #include <stdio.h>
