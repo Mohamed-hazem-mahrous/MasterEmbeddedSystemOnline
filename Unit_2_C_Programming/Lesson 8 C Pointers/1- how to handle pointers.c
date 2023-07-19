@@ -4,7 +4,7 @@
  Unit		 : 2 C Programming
  Lesson		 : Lesson 8 : C Pointers
  Name        : Example 1
- Description : Find Size of Union and Struct
+ Description : demonstrate how to handle the pointers in the program.
  ======================================================================================================================
  */
 #include <stdio.h>
@@ -35,7 +35,7 @@ int main()
 	*ab = 7;
 
 	printf("\nAddress of m : 0x%p\n", &m);
-	printf("Value of  m : %d\n",m);
+	printf("Value of m : %d\n",m);
 
 
 
