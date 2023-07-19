@@ -34,8 +34,8 @@ int main()
 
 	*ab = 7;
 
-	printf("\nAddress of pointer m : 0x%p\n", &m);
-	printf("Content of pointer m : %d\n",m);
+	printf("\nAddress of m : 0x%p\n", &m);
+	printf("Value of  m : %d\n",m);
 
 
 
