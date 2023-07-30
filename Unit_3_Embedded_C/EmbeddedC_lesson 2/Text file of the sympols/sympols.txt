@@ -8,16 +8,16 @@
 
 00000000 T main
 00000000 D string_buffer
-         	 U UART_Send_String
+         U UART_Send_String
 
 
 
 3- startup.o
 
 00000008 t endless_loop
-        	 U main
+         U main
 00000000 T reset
-         	 U stack_top
+         U stack_top
 
 
 
