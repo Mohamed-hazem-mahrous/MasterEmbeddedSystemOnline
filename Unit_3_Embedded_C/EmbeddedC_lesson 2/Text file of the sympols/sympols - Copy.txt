@@ -1,0 +1,52 @@
+1- app.o
+00000000 R const_variables
+00000004 D g_variables
+00000000 T main
+00000000 D R_ODR
+
+
+
+
+2- startup.o
+         U _E_Bss
+         U _E_Data
+         U _E_text
+         U _S_Bss
+         U _S_Data
+         U _Stak_Top
+00000000 W Bus_Fault
+00000000 T Default_Handler
+00000000 W H_Fault_Handler
+         U main
+00000000 W MM_Fault_Handler
+00000000 W NMI_Handler
+0000000c T Reset_Handler
+00000000 W Usage_Fault_Handler
+00000000 D vectors
+
+
+
+
+3- unt3_lab2_cortex_m3.elf
+20000008 B _E_Bss
+20000007 D _E_Data
+08000127 T _E_text
+20000008 B _S_Bss
+20000000 D _S_Data
+20001008 B _Stak_Top
+08000094 W Bus_Fault
+08000124 T const_variables
+08000094 T Default_Handler
+20000004 D g_variables
+08000094 W H_Fault_Handler
+0800001c T main
+08000094 W MM_Fault_Handler
+08000094 W NMI_Handler
+20000000 D R_ODR
+080000a0 T Reset_Handler
+08000094 W Usage_Fault_Handler
+08000000 T vectors
+
+
+
+
