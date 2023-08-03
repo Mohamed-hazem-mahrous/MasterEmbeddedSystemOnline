@@ -1,28 +1,17 @@
 CC=arm-none-eabi-
 CFLAGS=-mcpu=cortex-m3 -gdwarf-2
-
 #includes
 INCS=-I .
-
 #libraries
 LIBS= 
-
-# 
 SRC = $(wildcard *.c)
 OBJ = $(SRC:.c=.o)
-
 As = $(wildcard *.s)
 AsOBJ = $(As:.s=.o)
-
 ProjectName = unt3_lab2_cortex_m3
-
 
 all: $(ProjectName).bin
 	@echo "===================== Build is Done ====================="
-
-path:
-	export PATH=/d/....C_Programs/ST/STM32CubeIDE_1.4.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.7-2018-q2-update.win32_1.4.0.202007081208/tools/bin:$PATH
-	export PATH=$PATH:/d/....C_Programs/Qemu/
 
 %.o: %.s
 	$(CC)as.exe $(CFLAGS) $< -o $@
@@ -52,3 +41,16 @@ clean_all:
 
 clean:
 	rm *.bin *.elf
+
+
+
+
+
+
+
+
+
+
+path:
+	export PATH=/d/....C_Programs/ST/STM32CubeIDE_1.4.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.7-2018-q2-update.win32_1.4.0.202007081208/tools/bin:$PATH
+	export PATH=$PATH:/d/....C_Programs/Qemu/
