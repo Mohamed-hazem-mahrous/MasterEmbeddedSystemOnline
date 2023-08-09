@@ -20,10 +20,6 @@ ProjectName = unt3_lab3_cortex_m4
 all: $(ProjectName).bin
 	@echo -e "===================== Build is Done =====================\n"
 
-path:
-	export PATH=/d/....C_Programs/ST/STM32CubeIDE_1.4.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.7-2018-q2-update.win32_1.4.0.202007081208/tools/bin:$PATH
-	export PATH=$PATH:/d/....C_Programs/Qemu/
-
 %.o: %.s
 	$(CC)as.exe $(CFLAGS) $< -o $@
 	@echo -e "====================== "$@" is Done ======================\n"
