@@ -2,12 +2,12 @@
 
 ## Contents
 
-### First Term ![image](https://progress-bar.dev/68/?title=InProgress)
+### First Term ![image](https://progress-bar.dev/74/?title=InProgress)
 
 - [Unit 1: Diploma Prerequisites](https://github.com/Mohamed-hazem-mahrous/MasterEmbeddedSystemDiploma) ![image](https://progress-bar.dev/100/?title=No_Assignments)
 - [Unit 2: C Programming](Unit_2_C_Programming) ![image](https://progress-bar.dev/100/)
 - [Unit 3: Embedded C](Unit_3_Embedded_C) ![image](https://progress-bar.dev/100/)
-- [Unit 4: System Architect](Unit_4_System_Architect) ![image](https://progress-bar.dev/40/)
+- [Unit 4: System Architect](Unit_4_System_Architect) ![image](https://progress-bar.dev/70/)
 - [Unit 5: First Term Projects](Unit_5_First_term_project) ![image](https://progress-bar.dev/0/)
 
 ---
