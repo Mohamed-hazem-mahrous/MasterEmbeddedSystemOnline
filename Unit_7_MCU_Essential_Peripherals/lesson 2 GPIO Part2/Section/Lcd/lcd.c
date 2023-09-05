@@ -1,10 +1,3 @@
-/*
- * lcd.c
- *
- * Created: 4/22/2021 3:01:11 PM
- *  Author: Marco
- */ 
-
 #include "lcd.h"
 
 void LCD_clear_screen(){

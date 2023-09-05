@@ -1,11 +1,3 @@
-/*
- * keypad.h
- *
- * Created: 4/22/2021 6:32:00 PM
- *  Author: Marco
- */ 
-
-
 #ifndef KEYPAD_H_
 #define KEYPAD_H_
 

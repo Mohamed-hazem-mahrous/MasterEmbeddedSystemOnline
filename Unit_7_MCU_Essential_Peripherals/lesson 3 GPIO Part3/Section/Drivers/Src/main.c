@@ -21,9 +21,6 @@
 #warning "FPU is not initialized, but the project is compiling for an FPU. Please initialize the FPU before use."
 #endif
 
-//Learn-in-depth
-//Keroles Shenouda
-//Mastering_Embedded System online diploma
 
 #include "stm32f103x6.h"
 #include "Stm32_F103C6_gpio_driver.h"

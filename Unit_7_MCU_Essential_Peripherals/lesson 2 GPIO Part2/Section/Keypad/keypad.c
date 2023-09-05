@@ -1,11 +1,3 @@
-/*
- * keypad.c
- *
- * Created: 4/22/2021 6:32:10 PM
- *  Author: Marco
- */ 
-
-
 #include "keypad.h"
 
 int Key_padRow[] = {R0, R1, R2, R3}; //rows of the keypad
