@@ -11,10 +11,10 @@
 - [Unit 5: First Term Projects](Unit_5_First_term_project) ![image](https://progress-bar.dev/100/)
 
 ---
-### Second Term ![image](https://progress-bar.dev/30/?title=InProgress)
+### Second Term ![image](https://progress-bar.dev/34/?title=InProgress)
 
 - [Unit 6: Microcontroller Arch](Unit_6_Micro_controller_Arch) ![image](https://progress-bar.dev/100/)
-- [Unit 7: MCU Essential Peripherals](Unit_7_MCU_Essential_Peripherals) ![image](https://progress-bar.dev/75/)
+- [Unit 7: MCU Essential Peripherals](Unit_7_MCU_Essential_Peripherals) ![image](https://progress-bar.dev/100/)
 - [Unit 8: MCU Interfacing](Unit_8_MCU_Interfacing) ![image](https://progress-bar.dev/0/)
 - [Unit 9: MCU Timers and ADC](Unit_9_MCU_Timers_and_ADC) ![image](https://progress-bar.dev/0/)
 - [Unit 10: SW Engineering (Testing & Validation)](Vnit_10_SW_Engineering_(Testing_&_Validation)) ![image](https://progress-bar.dev/0/)
