@@ -60,22 +60,6 @@ FIFO_STATUS_EN QUEUE_INIT(FIFO_Queue_st *QUEUE, struct Sstudent *student, int le
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // This function checks whether the provided FIFO queue is full or not.
 // It verifies if the queue's base, head, and tail pointers are valid.
 // If the queue is full, it prints a message and returns the appropriate status.
@@ -119,10 +103,6 @@ FIFO_STATUS_EN IS_QUEUE_EMPTY(FIFO_Queue_st *QUEUE) {
 
 
 
-
-
-
-
 // Function to enqueue a student into the FIFO queue
 FIFO_STATUS_EN ENQUEUE(FIFO_Queue_st *QUEUE, struct Sstudent student) {
 	// Check if the queue or its components are not properly initialized
@@ -150,8 +130,6 @@ FIFO_STATUS_EN ENQUEUE(FIFO_Queue_st *QUEUE, struct Sstudent student) {
 		}
 		temp++; // Move the temp pointer to the next student in the queue.
 	}
-
-
 	// Assign the student structure to the current location pointed to by head
 	*(QUEUE->head) = student;
 

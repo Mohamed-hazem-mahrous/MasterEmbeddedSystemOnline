@@ -1,36 +1,16 @@
-/*
- ============================================================================
- Name        : first_term_project_1.c
- Author      : Mohamed Hazem
- Version     :
- Copyright   : 
- Description : Hello World in C, Ansi-style
- ============================================================================
- */
-
 #include "buffer.h"
 
-
-
-
 FIFO_Queue_st QUEUE_UART, QUEUE_TEST;
-
 struct Sstudent UART_BUF[QUEUE_LEN];
 
-
-
 int main(void) {
-
 	struct Sstudent UART_BUF_TEST[QUEUE_LEN];
 	QUEUE_INIT(&QUEUE_TEST, UART_BUF_TEST, QUEUE_LEN);
 
 	int choise, while_loop = 1;
 
 	printf("Welcome to the Student Management System");
-
-
 	while(while_loop){
-
 		printf("\n\nChoose The Task You Want to Perform\n");
 		printf("1: Add Student Details Manually\n");
 		printf("2: Add Student Details From the Saved Data\n");
@@ -51,58 +31,37 @@ int main(void) {
 		case 1:
 			ADD_STUDENT_MANUALY(&QUEUE_TEST);
 			break;
-
 		case 2:
 			ADD_STUDENT_FROM_FILE(&QUEUE_TEST);
 			break;
-
 		case 3:
 			GET_STUDENT_BY_ROLL(&QUEUE_TEST);
 			break;
-
 		case 4:
 			GET_STUDENT_BY_FNAME(&QUEUE_TEST);
 			break;
-
 		case 5:
 			GET_STUDENT_BY_COURSE(&QUEUE_TEST);
 			break;
-
 		case 6:
 			GET_LENGTH(&QUEUE_TEST);
 			break;
-
 		case 7:
 			DELETE_STUDENT(&QUEUE_TEST);
 			break;
-
 		case 8:
 			UPDATE_STUDENT(&QUEUE_TEST);
 			break;
-
 		case 9:
 			PRINT_LIST(&QUEUE_TEST);
 			break;
-
 		case 10:
 			while_loop = 0;
 			break;
-
 		default:
 			printf("\nWrong Option");
 			break;
 		}
 	}
-
-
-
-
-
-
-
-
-
-
-
 	return EXIT_SUCCESS;
 }

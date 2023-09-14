@@ -21,10 +21,8 @@ struct Saved_Date {
     int CourseID[student_num][Course_Num];    // IDs of courses taken by students
 };
 
-
 // Extern declaration of the structure to store saved data
 extern struct Saved_Date DATA_FILE;
-
 
 // Definition of a structure to represent a student
 struct Sstudent {
@@ -34,8 +32,6 @@ struct Sstudent {
     float GPA;              // Student GPA
     int CourseID[Course_Num];    // IDs of courses taken by student
 };
-
-
 // Definition of a FIFO (First-In-First-Out) queue structure
 typedef struct {
     unsigned int length;        // Total length of the queue
